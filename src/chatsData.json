@@ -1,0 +1,59 @@
+{
+    "chats": [
+        {
+            "user": "ed@gmail.com",
+            "message": "Hey.",
+            "timestamp": "18/12/2020 01:18"
+        },
+        {
+            "user": "shruti@gmail.com",
+            "message": "Hey.",
+            "timestamp": "18/12/2020 01:18"
+        },
+        {
+            "user": "ed@gmail.com",
+            "message": "You up?",
+            "timestamp": "18/12/2020 01:18"
+        },
+        {
+            "user": "shruti@gmail.com",
+            "message": "Yeah.",
+            "timestamp": "18/12/2020 01:18"
+        },
+        {
+            "user": "ed@gmail.com",
+            "message": "I'm bringing over the CDs.",
+            "timestamp": "18/12/2020 01:18"
+        },
+        {
+            "user": "shruti@gmail.com",
+            "message": "Okay.",
+            "timestamp": "18/12/2020 01:18"
+        },
+        {
+            "user": "shruti@gmail.com",
+            "message": "Don't forget my bag.",
+            "timestamp": "18/12/2020 01:19"
+        },
+        {
+            "user": "ed@gmail.com",
+            "message": "Right.",
+            "timestamp": "18/12/2020 01:19"
+        },
+        {
+            "user": "ed@gmail.com",
+            "message": "I picked a movie. You're gonna love it.",
+            "timestamp": "18/12/2020 01:20"
+        },
+        {
+            "user": "shruti@gmail.com",
+            "message": "Can't wait.",
+            "timestamp": "18/12/2020 01:20"
+        },
+        {
+            "user": "ed@gmail.com",
+            "message": "Be there in 3.",
+            "timestamp": "18/12/2020 01:20"
+        }
+    ]
+}

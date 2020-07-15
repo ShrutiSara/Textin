@@ -1,38 +1,177 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    color: teal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+    color: #1e2428;
+    font-size: small;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+small{
+    padding: 10px 10px 10px 0px;
+    font-size: 16px;
+    color: teal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: black;
+}
+
+.wrapper {
+    width: 500px;
+    margin: 5% auto;
+    background-color: black;
+}
+
+.form-area {
+    display: flex;
+    border-radius: 25px;
+    padding: 1.9em;
+}
+
+.logo {
+    text-decoration: none;
+    cursor: pointer;
+    color: teal;
+    font-size: 30px;
+    font-weight: 700;
+    display: inline-block;
+    padding-bottom: 12px;
+}
+
+.login-body {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-body > button {
+    background-color: teal;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 24px 0 12px;
+    line-height: 1.7em;
+    cursor: pointer;
+}
+
+.logout-button {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.logout-button > button {
+    background-color: teal;
+    border: none;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.login-form{
+    width: 100%;
+    border: none;
+    line-height: 1.7em;
+    padding: 2px 0 12px;
+}
+
+.inputBox {
+    width: 100%;
+    background: #333;
+    color: white;
+    line-height: 1.7em;
+    padding: 30px 20px 10px;
+    border: none;
+    border-radius: 4px;   
+}
+
+.logout {
+    width: 300px;
+}
+
+.boxalign {
+    padding-left: 300px;
+}
+
+.textbox {
+    background-color: #090e11;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    text-align: right;
+    width: 800px;
+    height: 500px;
+    border-radius: 1%;   
+    overflow: auto;
+    max-height: 450px;
+}
+
+.chatalign {
+    padding-top: 20px;
+     
+}
+
+.chatbox {
+    background-color: teal;
+    display: inline-block;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+.none {
+    display: none;
+}
+
+.typechat {
+    background-color: #1e2428;
+    position: absolute;
+    width: 800px;
+    bottom: 53px;
+    right: 258px;
+}
+
+.textarea {
+    width: 770px;
+    background-color: #33383b;
+    color: white;
+    border-radius: 21px;
+    border: 1px solid var(--compose-input-border);
+    padding: 9px 12px 11px ;
+    margin: 5px 10px;
+}
+
+/* width */
+div::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+div::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+div::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+div::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
