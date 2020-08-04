@@ -3,7 +3,7 @@ import "firebase/auth";
 import "firebase/database";
 
 const config = {
-    apiKey: "AIzaSyADtlXdLIrFm-6-YOR4CizzqwlV4hRIwE4",
+    apiKey: "XXXXXXXXXXXX",
     authDomain: "textin-textin.firebaseapp.com",
     databaseURL: "https://textin-textin.firebaseio.com",
     projectId: "textin-textin",
