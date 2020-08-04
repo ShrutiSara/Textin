@@ -1,4 +1,4 @@
-A Messaging Application built using React and Firebase.
+A Messaging Application built using React and Firebase Realtime Database where only registered users can send messages. Email/Password service from Firebase.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
